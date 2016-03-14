@@ -1,0 +1,31 @@
+{
+  "name": "live-voting",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "An application that allows audience to do live-voting under a speaker's presentation",
+  "main": "app-server.js",
+  "dependencies": {
+    "babel-core": "^5.8.12",
+    "babel-loader": "^5.3.2",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "react": "^0.14.7",
+    "react-d3": "^0.3.1",
+    "react-router": "^0.13.3",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5",
+    "underscore": "^1.8.3",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node app-server.js"
+  },
+  "keywords": [
+    "live",
+    "poll"
+  ],
+  "author": "Frank Lee",
+  "license": "MIT"
+}

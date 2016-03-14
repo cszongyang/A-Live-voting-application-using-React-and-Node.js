@@ -1,4 +1,4 @@
-# A-live-voting-application-using-React-and-Node.js
+# A live voting application using React and Node.js
 
 
 # Installation
